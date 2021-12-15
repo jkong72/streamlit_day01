@@ -2,6 +2,7 @@ import streamlit as st
 from app9_EDA import run_eda_app
 from app9_ML import run_ml_app
 
+# 하나의 앱을 여러 파일로 구성하는 법
 def main():
     st.title('파일 분리 앱')
 
